@@ -1,0 +1,5 @@
+insert into persona(id, nombre, direccion, edad) values (1,'persona1', 'direccion1', '1')
+insert into persona(id, nombre, direccion, edad) values (2,'persona2', 'direccion1', '2')
+insert into persona(id, nombre, direccion, edad) values (3,'persona3', 'direccion1', '3')
+insert into persona(id, nombre, direccion, edad) values (4,'persona4', 'direccion1', '4')
+insert into persona(id, nombre, direccion, edad) values (5,'persona5', 'direccion1', '5')

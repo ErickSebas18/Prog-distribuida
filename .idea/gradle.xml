@@ -5,12 +5,15 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:/Gradle/gradle-8.8-bin/gradle-8.8" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ejemplo01_cdi" />
             <option value="$PROJECT_DIR$/ejemplo02_jpa" />
             <option value="$PROJECT_DIR$/ejemplo03_rest" />
+            <option value="$PROJECT_DIR$/ejercicio04_rest" />
           </set>
         </option>
       </GradleProjectSettings>

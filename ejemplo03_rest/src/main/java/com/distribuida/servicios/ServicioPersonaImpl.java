@@ -26,16 +26,22 @@ public class ServicioPersonaImpl implements ServicioPersona{
 
     @Override
     public void insert(Persona persona) {
-            em.persist(persona);
+        em.getTransaction().begin();
+        em.persist(persona);
+        em.getTransaction().commit();
     }
 
     @Override
     public void delete(Integer id) {
+        em.getTransaction().begin();
         em.remove(this.findById(id));
+        em.getTransaction().commit();
     }
 
     @Override
     public void merge(Persona persona) {
+        em.getTransaction().begin();
         em.merge(persona);
+        em.getTransaction().commit();
     }
 }
